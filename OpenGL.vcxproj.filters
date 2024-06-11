@@ -25,6 +25,9 @@
     <Filter Include="vendor\imgui">
       <UniqueIdentifier>{eb32a899-688d-4e73-b9a8-f641857daebe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\obj">
+      <UniqueIdentifier>{4c46a200-de10-4bab-9173-08c0c7f53143}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -78,9 +81,24 @@
     <ClCompile Include="Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader.shader">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="ShaderTest.shader">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="TestShader.shader">
       <Filter>Resource Files\shaders</Filter>
     </None>
   </ItemGroup>
@@ -142,10 +160,37 @@
     <ClInclude Include="Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Test.png">
       <Filter>Resource Files\textures</Filter>
     </Image>
+    <Image Include="Container.jpg">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cube.txt" />
+    <Text Include="Monkey.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="themusic.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
